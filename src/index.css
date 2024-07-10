@@ -1,0 +1,283 @@
+@font-face {
+  font-family: "vazir";
+  src: url("./assets/fonts/ttf/Vazirmatn-Medium.ttf");
+}
+
+* {
+  font-family: "vazir", sans-serif !important;
+}
+
+/* CSS */
+
+.thead-with-margin {
+  margin-bottom: 10px;
+}
+
+.highcharts-credits {
+  display: none !important;
+}
+
+.customTable thead th {
+  border-radius: 0 !important;
+}
+
+.customTable thead tr:nth-child(1) th {
+  background: #ccc !important;
+  border: 1px solid #333;
+}
+
+.customTable thead tr:nth-child(2) th {
+  border: 1px solid #333;
+}
+
+.customTable tbody tr td:nth-child(1) {
+  border-left: 1px solid #333;
+}
+
+.customTable tbody tr td:nth-child(2),
+.customTable tbody tr td:nth-child(3) {
+  background: #c4dec4;
+  border-left: 1px solid #333;
+}
+
+.customTable tbody tr td:nth-child(4),
+.customTable tbody tr td:nth-child(5) {
+  background: #f7c4c4;
+  border-left: 1px solid #333;
+}
+
+.customTable tbody tr td {
+  border: 1px solid #333;
+}
+
+.noStyle tbody {
+  border: 1px solid #333;
+}
+
+.noStyle tbody tr td:nth-child(4),
+.noStyle tbody tr td:nth-child(5) {
+  background: #c4dec4 !important;
+  border-left: 1px solid #333;
+}
+
+.noStyle tbody tr td:nth-child(6),
+.noStyle tbody tr td:nth-child(7) {
+  background: #f7c4c4 !important;
+  border-left: 1px solid #f7c4c4;
+}
+
+.noStyle tbody tr td {
+  background: #fff !important;
+  border: 1px solid #333 !important;
+}
+
+/* Apply styles to the outer table rows */
+table tr:hover:not(:has(table)) {
+  z-index: 100 !important;
+  font-weight: bold;
+  text-shadow: 0px 0px #333;
+}
+
+/* Apply styles to the inner table rows when not hovered over the outer row */
+table tr tr:hover {
+  text-shadow: none !important;
+}
+
+.bg-pattern {
+  background: url("/pattern.svg");
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.table-container > * {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.bullCallTable tbody tr td:nth-child(3),
+.bullCallTable tbody tr td:nth-child(4),
+.bullCallTable tbody tr td:nth-child(5),
+.bullCallTable tbody tr td:nth-child(6) {
+  background-color: #c4dec4;
+}
+
+.bullCallTable tbody tr td:nth-child(7),
+.bullCallTable tbody tr td:nth-child(8),
+.bullCallTable tbody tr td:nth-child(9),
+.bullCallTable tbody tr td:nth-child(10) {
+  background-color: #f7c4c4;
+}
+
+.rmdp-container svg {
+  left: 11px !important;
+}
+
+.rmdp-input {
+  width: 120px !important;
+  padding: 0.8rem !important;
+  font-size: 13px !important;
+  text-align: right;
+}
+
+#root
+  > div:nth-child(2)
+  > main
+  > div
+  > div
+  > div
+  > table
+  > tbody
+  > tr:nth-child(1) {
+  font-weight: bold;
+}
+
+.historical_trade tr td {
+  font-weight: normal !important;
+  padding: 0.5rem !important;
+  position: relative;
+  top: -5px;
+}
+
+.historical_trade tr th {
+  /* font-weight: normal !important;
+  /* padding: .5rem !important; */
+  /* position: relative;
+  top: -18px; */
+  background-color: white !important;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+}
+
+.historical_trade tr th div {
+  position: relative;
+  top: -10px;
+}
+
+.historical_trade tr:last-child {
+  font-weight: bold !important;
+}
+
+.bullCallTable tr {
+  font-weight: 500 !important;
+}
+
+.bullCallTable tr:hover {
+  font-weight: 600 !important;
+}
+
+.noTRBold tr {
+  font-weight: 500 !important;
+}
+
+.noTRBold tr:hover {
+  font-weight: 600 !important;
+}
+
+#csstable table tr:nth-child(1) {
+  font-weight: normal !important;
+}
+
+/* .arbitrageTable tr td:nth-child(1), */
+.arbitrageTable tr td:nth-child(1n + 8),
+.arbitrageTable tr th:nth-child(1n + 8) {
+  background: rgba(152, 164, 199, 0.196);
+  border: 1px solid #fff;
+}
+
+.arbitrageTable tr td:nth-child(1n + 13),
+.arbitrageTable tr th:nth-child(1n + 13) {
+  background: #a3c8ed4d;
+  border: 1px solid #fff;
+}
+
+.arbitrageTable tr td:nth-child(1n + 17),
+.arbitrageTable tr th:nth-child(1n + 17) {
+  background: #75ace456;
+}
+
+#root
+  > div:nth-child(2)
+  > div
+  > div
+  > div.flex.items-center.gap-3
+  > nav
+  > ul
+  > li:nth-child(4)
+  > div {
+  font-weight: 500 !important;
+}
+
+/* Style all td and th elements */
+.marriedput tr td,
+.marriedput tr th {
+  border-radius: 0;
+  border: 1px solid #f5f5f5;
+}
+
+/* Style odd rows */
+.marriedput tr:nth-child(odd) {
+  background: #fcfcfc;
+  /* Background color for odd rows, you can change this color */
+}
+
+/* Additional background styles for specific columns */
+.marriedput tr td:nth-child(1n + 8),
+.marriedput tr th:nth-child(1n + 8) {
+  background: rgba(209, 219, 246, 0.507);
+}
+
+.marriedput tr td:nth-child(1n + 13),
+.marriedput tr th:nth-child(1n + 13) {
+  background: #a3c8ed4d;
+}
+
+.marriedput tr td:nth-child(1n + 17),
+.marriedput tr th:nth-child(1n + 17) {
+  background: #75ace456;
+}
+
+/* CoverdCallTable */
+
+/* Style all td and th elements */
+.CoverdCallTable tr td,
+.CoverdCallTable tr th {
+  border-radius: 0;
+  border: 1px solid #f5f5f5;
+}
+
+/* Style odd rows */
+.CoverdCallTable tr:nth-child(odd) {
+  background: #fcfcfc;
+  /* Background color for odd rows, you can change this color */
+}
+
+/* Additional background styles for specific columns */
+.CoverdCallTable tr td:nth-child(1n + 8),
+.CoverdCallTable tr th:nth-child(1n + 8) {
+  background: rgba(209, 219, 246, 0.507);
+}
+
+.CoverdCallTable tr td:nth-child(1n + 13),
+.CoverdCallTable tr th:nth-child(1n + 13) {
+  background: #a3c8ed4d;
+}
+
+.CoverdCallTable tr td:nth-child(1n + 18),
+.CoverdCallTable tr th:nth-child(1n + 18) {
+  background: #75ace456;
+}
+
+.postions__table tr td,
+.postions__table th {
+  padding: 0.3rem !important;
+  font-size: 13px;
+  border-radius: 0 !important;
+}
+
+.table-container {
+  width: 100%;
+}
+
+th { 
+  z-index: 1000 !important;
+}
